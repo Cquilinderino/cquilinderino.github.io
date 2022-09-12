@@ -24,3 +24,41 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+.container {
+    margin: 0 auto;
+    padding: 0 25px;
+    text-align: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,5);
+    border-radius: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    margin-bttom: 15px;
+}
+#game_board, .row {
+    display: flex;
+    flex-flow: row wrap;
+}
+#game_board {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    border: 2px groove #00ffff;
+    box-sizing: content-box;
+    background: #5000
+}
+.btn {
+    
+}
